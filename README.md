@@ -24,7 +24,7 @@ Landing page about Russian traval places
 
 ### Tech:
 
-HTML, CSS, flexbox, BEM metology, adaptive layout
+HTML, CSS, flexbox, BEM methodology, adaptive layout
 
 ### Author:
 
