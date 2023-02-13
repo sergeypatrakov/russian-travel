@@ -1,0 +1,14 @@
+.footer__row-link {
+  margin: 0 auto;
+  line-height: 18px;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__row-link:nth-child(5n) {
+  padding-right: 0px;
+}

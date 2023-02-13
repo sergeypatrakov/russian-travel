@@ -1,0 +1,11 @@
+.footer {
+  width: 1184px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 94px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 24px;
+}
