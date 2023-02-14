@@ -4,11 +4,11 @@
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  padding-right: 18px;
+  margin-right: 18px;
   text-decoration: none;
   color: #fff;
 }
 
 .footer__row-link:nth-child(5n) {
-  padding-right: 0px;
+  margin-right: 0px;
 }

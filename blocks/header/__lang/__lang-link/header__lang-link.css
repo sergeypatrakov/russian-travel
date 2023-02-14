@@ -5,8 +5,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  padding-right: 18px;
+  margin-right: 18px;
   text-align: right;
+  text-decoration: none;
+  color: #fff;
 }
 
 .header__lang-link:hover {
@@ -14,5 +16,5 @@
 }
 
 .header__lang-link:nth-child(2n) {
-  padding-right: 0px;
+  margin-right: 0px;
 }
