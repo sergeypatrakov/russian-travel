@@ -1,0 +1,10 @@
+.cover {
+  width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
