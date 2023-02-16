@@ -1,0 +1,9 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  height: 429px;
+  align-items: start;
+  padding-top: 92px;
+  padding-left: 148px;
+}
