@@ -1,9 +1,7 @@
 .intro {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 690px;
-  height: 429px;
-  align-items: start;
+  width: calc(100% - 2*148px);
   padding-top: 92px;
-  padding-left: 148px;
 }

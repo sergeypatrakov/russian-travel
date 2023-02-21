@@ -1,5 +1,7 @@
 .cover__background {
-  width: 1184px;
+  margin: 0 auto;
+  max-width: 1184px;
+  width: 100%;
   min-height: 740px;
   background-image: url(../../../images/cover__background.jpg);
   background-position: center;
@@ -26,4 +28,26 @@
 
 .cover__background:hover::before {
   opacity: .8;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .cover__background {
+  min-height: 640px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .cover__background {
+  min-height: 480px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .cover__background {
+  min-height: 200px;
+  justify-content: flex-start;
+  }
 }
