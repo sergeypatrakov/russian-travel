@@ -1,7 +1,6 @@
 .photo-grid {
-  width: 1184px;
-  height: 671px;
+  margin: 0 auto;
+  max-width: 1184px;
   margin-top: 92px;
-  margin-left: 48px;
-  margin-right: 48px;
+  width: clac(100% - 2*48px);
 }
