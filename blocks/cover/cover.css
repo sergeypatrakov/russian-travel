@@ -6,6 +6,7 @@
   margin-top: 92px;
 }
 
+/* 1024 */
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;

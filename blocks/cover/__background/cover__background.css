@@ -10,7 +10,7 @@
   text-decoration: none;
   color: #fff;
   z-index: 1;
-  position: absolute;
+  position: relative;
 }
 
 .cover__background::before {
