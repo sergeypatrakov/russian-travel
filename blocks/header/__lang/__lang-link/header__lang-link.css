@@ -1,6 +1,6 @@
 .header__lang-link {
-  margin: 0 auto;
-  width: 30px;
+  margin: 0;
+  max-width: 30px;
   line-height: 28px;
   font-style: normal;
   font-weight: 400;
@@ -17,4 +17,11 @@
 
 .header__lang-link:nth-child(2n) {
   margin-right: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
