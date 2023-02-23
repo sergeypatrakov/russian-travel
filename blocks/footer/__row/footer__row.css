@@ -1,6 +1,15 @@
 .footer__row {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding-inline-start: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .footer__row {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
 }
