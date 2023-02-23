@@ -33,21 +33,21 @@
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .cover__background {
-    min-height: 640px;
+  min-height: 640px;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
   .cover__background {
-   min-height: 480px;
+  min-height: 480px;
   }
 }
 
-/* 320 */
+
 @media screen and (max-width: 320px) {
   .cover__background {
-    min-height: 200px;
-    justify-content: flex-start;
+  min-height: 200px;
+  justify-content: flex-start;
   }
 }
