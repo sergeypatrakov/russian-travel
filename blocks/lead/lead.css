@@ -2,13 +2,14 @@
   margin: 0 auto;
   max-width: 984px;
   width: calc(100% - 2*148px);
-  padding-top: 56px;
+  padding-top: 62px;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .lead {
     width: calc(100% - 2*48px);
+    padding-top: 54px;
   }
 }
 
@@ -16,5 +17,13 @@
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
+    padding-top: 48px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .lead {
+    padding-top: 48px;
   }
 }
