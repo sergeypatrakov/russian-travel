@@ -1,10 +1,20 @@
 .lead {
-  display: flex;
-  flex-direction: column;
-  width: 984px;
-  height: 1005px;
+  margin: 0 auto;
+  max-width: 984px;
+  width: calc(100% - 2*148px);
   padding-top: 56px;
-  padding-left: 148px;
-  padding-right: 148px;
-  align-items: center;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
 }

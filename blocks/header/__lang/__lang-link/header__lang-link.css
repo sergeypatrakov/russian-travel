@@ -9,17 +9,19 @@
   text-align: right;
   text-decoration: none;
   color: #fff;
+  transition: 0.3s ease-in;
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .header__lang-link:nth-child(2n) {
   margin-right: 0px;
 }
 
-@media screen and (max-width: 480px) {
+/* 320 */
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
