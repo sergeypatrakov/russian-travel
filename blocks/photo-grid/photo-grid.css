@@ -2,5 +2,26 @@
   margin: 0 auto;
   max-width: 1184px;
   margin-top: 92px;
-  width: clac(100% - 2*48px);
+  width: calc(100% - 2*48px);
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    width: calc(100% - 2*24px);
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: calc(100% - 2*16px);
+    margin-top: 64px;
+  }
 }
