@@ -1,12 +1,28 @@
 .place__paragraph {
-  margin: 0 auto;
+  margin: 0 0 26px 0;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
-  margin-bottom: 26px;
+  line-height: 29.34px;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-bottom: 25px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: calc(100% - 2*16px);
+    padding-left: 16px;
+  }
 }

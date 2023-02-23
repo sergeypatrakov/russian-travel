@@ -1,5 +1,6 @@
 .place__website_link {
-  line-height: 22px;
+  margin: 0;
+  line-height: 122%;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

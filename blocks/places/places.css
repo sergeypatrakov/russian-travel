@@ -1,8 +1,42 @@
 .places {
-  display: flex;
-  flex-direction: column;
-  max-width: calc(100% - 2 * 148px);
   margin: 0 auto;
+  width: calc(100% - 2*148px);
   margin-top: 92px;
-  align-items: center;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 2*48px);
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .places {
+    margin-top: 88px;
+    width: calc(100% - 48px);
+  }
+}
+
+/* 568 */
+@media screen and (max-width: 568px) {
+  .places {
+    width: calc(100% - 32px);
+  }
+}
+
+/* 480 */
+@media screen and (max-width: 480px) {
+  .places {
+    margin-top: 64px;
+    width: calc(100% - 16px);
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+  }
 }

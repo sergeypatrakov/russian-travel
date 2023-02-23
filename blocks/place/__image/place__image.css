@@ -1,4 +1,29 @@
 .place__image {
-  max-width: 100%;
-  grid-row: 2 / 3;
+  margin: 0;
+  padding: 0;
+  max-width: 480px;
+  height: auto;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 42.96875vw;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: 44.2708333vw;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 100vw;
+    margin-bottom: 32px;
+    object-fit: cover;
+  }
 }
