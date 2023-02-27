@@ -23,22 +23,22 @@
   }
 }
 
-.footer__row-list {
+.footer__row-link {
   margin: 0 14px 0 0;
   padding: 0;
 }
 
-.footer__row-list:last-child {
+.footer__row-link:nth-child(5n) {
   margin-right: 0;
 }
 
 @media screen and (max-width: 480px) {
-  .footer__row-list {
+  .footer__row-link {
     margin-right: 0;
     margin-bottom: 32px;
   }
 
-  .footer__row-list:last-child {
+  .footer__row-link:last-child {
     margin-bottom: 0;
   }
 }

@@ -13,20 +13,13 @@
   margin-top: 195px;
 }
 
-/* 505 */
-@media screen and (max-width: 505px) {
-  .cover__title {
-    font-size: 12vw;
-    margin-top: 115px;
-  }
-}
-
-/* 480 */
-@media screen and (max-width: 480px) {
-  .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 109%;
+/* 768 */
+@media screen and (max-width: 768px){
+  .cover__title{
+      font-size: 32px;
+      font-weight: 900;
+      line-height: 35px;
+      max-width: 288px;
   }
 }
 
