@@ -12,3 +12,10 @@
     width: 100%;
   }
 }
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

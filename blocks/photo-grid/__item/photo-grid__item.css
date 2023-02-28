@@ -3,3 +3,24 @@
   max-width: 284px;
   height: 100%;
 }
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    max-width: 300px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    max-width: 352px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    max-width: 288px;
+  }
+}
