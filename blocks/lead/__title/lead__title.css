@@ -10,6 +10,13 @@
   text-align: center;
 }
 
+/* 680 */
+@media screen and (max-width: 680px) {
+  .lead__title {
+    font-size: 12vw;
+  }
+}
+
 /* 320 */
 @media screen and (max-width: 320px) {
   .lead__title {
