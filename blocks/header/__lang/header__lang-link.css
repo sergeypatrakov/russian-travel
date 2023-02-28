@@ -1,6 +1,5 @@
 .header__lang-link {
   margin: 0;
-  max-width: 30px;
   line-height: 28px;
   font-family: 'Inter', Helvetica, sans-serif;
   font-style: normal;
@@ -17,7 +16,7 @@
   opacity: 0.8;
 }
 
-.header__lang-link:nth-child(2n) {
+.header__lang-link:last-child {
   margin-right: 0px;
 }
 

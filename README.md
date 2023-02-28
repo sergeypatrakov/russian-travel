@@ -12,7 +12,7 @@ HTML, CSS, flexbox, БЭМ, адаптивная верстка
 
 [Сергей Патраков](https://github.com/sergeypatrakov)
 
-### Посмотреть проект:
+### Посмотреть проект: https://sergeypatrakov.github.io/russian-travel/
 
 ___
 
@@ -30,4 +30,4 @@ HTML, CSS, flexbox, BEM methodology, adaptive layout
 
 [Sergey Patrakov](https://github.com/sergeypatrakov)
 
-### View the project:
+### View the project: https://sergeypatrakov.github.io/russian-travel/
