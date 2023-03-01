@@ -1,0 +1,21 @@
+.footer__indent {
+    margin: 0;
+    list-style: none;
+  }
+
+.footer__indent {
+  margin: 0 14px 0 0;
+  padding: 0;
+}
+
+.footer__indent:last-child {
+  margin-right: 0;
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .footer__indent {
+    margin-right: 0;
+    margin-top: 32px;
+  }
+}
