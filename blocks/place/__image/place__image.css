@@ -19,10 +19,10 @@
   }
 }
 
-/* 320 */
-@media screen and (max-width: 320px) {
+/* 420 */
+@media screen and (max-width: 420px) {
   .place__image {
-    width: 100vw;
+    width: 100%;
     margin-bottom: 32px;
     object-fit: cover;
   }

@@ -6,6 +6,7 @@
   column-gap: 17px;
   row-gap: 50px;
   margin-top: 80px;
+  justify-content: center;
 }
 
 /* 1024 */
@@ -31,8 +32,8 @@
   }
 }
 
-/* 320 */
-@media screen and (max-width: 320px) {
+/* 420 */
+@media screen and (max-width: 420px) {
   .place {
     display: flex;
     flex-direction: column;
