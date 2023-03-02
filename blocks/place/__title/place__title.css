@@ -17,16 +17,10 @@
   }
 }
 
-/* 480 */
-@media screen and (max-width: 480px) {
+/* 500 */
+@media screen and (max-width: 500px) {
   .place__title {
     font-size: 8vw;
-  }
-}
-
-/* 420 */
-@media screen and (max-width: 420px) {
-  .place__title {
     margin: 0 auto 33px;
     width: calc(100% - 2*16px);
     font-size: 32px;
