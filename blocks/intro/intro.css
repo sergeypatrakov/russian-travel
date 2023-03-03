@@ -2,7 +2,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  max-width: 690px;
+  max-width: 984px;
   width: calc(100% - 2*148px);
   padding-top: 92px;
 }
@@ -17,7 +17,6 @@
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .intro {
-    /* max-width: none; */
     width: calc(100% - 2*48px);
   }
 }
