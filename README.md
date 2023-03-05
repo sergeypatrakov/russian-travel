@@ -20,7 +20,7 @@ ___
 
 ### Description: 
 
-Landing page about Russian traval places
+Landing page about Russian travel places
 
 ### Tech:
 
